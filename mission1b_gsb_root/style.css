@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+}
+
+main .title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(73, 150, 238);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 1.25em;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text-frais {
+    margin-top: 10px;
+}
+
+img {
+    width: 90px;
+    height: 75px;
+    margin-right: 50px;
+}
+
+label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-left: 40%;    
+    background-color: rgb(119, 170, 221);
+    width: 700px;
+    height: auto;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.select-left {
+    width: 100px;
+    margin-left: 80px;
+}
+
+.select-right {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.label-left {
+    font-size: .8em;
+}
+
+.label-right {
+    font-size: .8em;
+    margin-left: 30px;
+}
+
+/*button {
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 150, 238);
+}*/
+
+.button {
+    margin-left: 20px;
+    padding: 2px;
+    background-color: #fff;
+    border: none;
+    color: rgb(119, 170, 221);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+tr {
+    height: 20px;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+td {
+    color: rgb(255, 255, 255);
+    font-size: .8em;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+}
+
+.td-mois {
+    width: 90px;
+    color: rgb(0, 0, 0);
+}
